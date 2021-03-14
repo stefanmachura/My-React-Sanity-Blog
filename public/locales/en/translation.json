@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "about": "about"
+  },
+  "footer": {
+    "invite": "join my Discord server"
+  },
+  "home": {
+    "title": "Latest post",
+    "newsHeader": "News",
+    "news": "<strong>09/01/2021</strong> first version of this page!",
+    "ww": "Worth watching",
+    "programming": "programming",
+    "photo": "photography",
+    "podcasts": "podcasts"
+  },
+  "about": {
+    "header": "about me",
+    "me": "about me but in english"
+  },
+  "articles": {
+    "no-posts": "There are no posts of this category yet"
+  },
+  "article": {
+    "goback": "back to list of articles"
+  }
+}

@@ -1,0 +1,44 @@
+.kofi-img {
+  border: 0px;
+  height: 36px;
+  display: block;
+  margin: auto;
+}
+
+.home-header {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+
+.home-linklist-header {
+  padding: 0;
+  margin: 0;
+}
+
+.home-link-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: square;
+  line-height: normal;
+}
+
+.about-images {
+  display: flex;
+}
+
+.about-img {
+  margin: 20px 20px 20px 0;
+}
+
+.recommended-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+@media screen and (max-width: 768px) {
+  .recommended-grid {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

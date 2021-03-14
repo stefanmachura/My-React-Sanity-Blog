@@ -1,0 +1,28 @@
+{
+  "navbar": {
+    "about": "o mnie"
+  },
+  "footer": {
+    "invite": "dołącz do mojego Discorda"
+  },
+  "home": {
+    "title": "Najnowszy artykuł",
+    "newsHeader": "Nowości",
+    "news": "<strong>09/01/2021</strong> pierwsza wersja strony!",
+    "ww": "Warte uwagi",
+    "programming": "programowanie",
+    "photo": "fotografia",
+    "podcasts": "podcasty"
+  },
+  "about": {
+    "header": "o mnie",
+    "me": "o mnie po polsku"
+  },
+  "articles": {
+    "no-posts": "Jeszcze nie ma artykułów z tej kategorii"
+  },
+  "article": {
+    "goback": "powrót do listy artykułów"
+  }
+
+}

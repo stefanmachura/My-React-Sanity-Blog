@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(251, 255, 254);
+}
+
+nav {
+  background: rgb(34, 56, 67);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(251, 255, 254);
+  min-height: 3em;
+  margin-bottom: 1em;
+}
+.nav-link {
+  color: white;
+  font-weight: normal;
+}
+
+.nav-link:visited {
+  color: white;
+  font-weight: normal;
+}
+
+.dark {
+  background-color: red;
+}
+
+.current-page-link {
+  color: #f06449;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.logo {
+  letter-spacing: 1em;
+}
+
+.lg-button {
+  cursor: pointer;
+  background-color: rgb(34, 56, 67);
+  color: white;
+  padding: 3px 7px;
+  margin: 0px 4px;
+  border: 1px solid #f06449;
+  border-radius: 10%;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 55%;
+}
+
+.burger {
+  display: none;
+}
+
+.footer {
+  margin-top: 2em;
+  background: #f06449;
+  font-size: 0.8em;
+  padding: 0.3em;
+  overflow: hidden;
+}
+
+.footer span {
+  margin: 5px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  .active {
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(34, 56, 67);
+    top: 7vh;
+  }
+  .burger {
+    display: block;
+  }
+}
